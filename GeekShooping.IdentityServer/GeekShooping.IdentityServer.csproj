@@ -1,0 +1,145 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Shared\_Layout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\_ViewImports.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\_ViewStart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Account\Login\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Account\AccessDenied.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Account\Login\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Account\Logout\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Account\Logout\LoggedOut.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ciba\All.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ciba\Consent.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ciba\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ciba\_ScopeListItem.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Consent\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Consent\_ScopeListItem.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Device\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Device\Success.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Device\_ScopeListItem.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Diagnostics\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\ExternalLogin\Callback.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\ExternalLogin\Challenge.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Grants\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Home\Error\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Redirect\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\_Nav.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\_ValidationSummary.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Account\Logout\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Account\Logout\LoggedOut.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Account\AccessDenied.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Ciba\_ScopeListItem.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Ciba\All.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Ciba\Consent.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Ciba\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Consent\_ScopeListItem.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Consent\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Device\_ScopeListItem.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Device\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Device\Success.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Diagnostics\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\ExternalLogin\Callback.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\ExternalLogin\Challenge.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Grants\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Home\Error\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Redirect\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Shared\_Nav.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Shared\_ValidationSummary.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.4" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
